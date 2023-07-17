@@ -7,6 +7,7 @@ import { defineConfig } from 'sanity';
 import { deskTool } from 'sanity/desk';
 
 // Go to https://www.sanity.io/docs/api-versioning to learn how API versioning works
+import Logo from './components/Logo';
 import StudioNavbar from './components/StudioNavbar';
 import { apiVersion, dataset, projectId } from './sanity/env';
 import { schema } from './sanity/schema';
@@ -28,7 +29,7 @@ export default defineConfig({
   ],
   studio: {
     components: {
-      // logo: Logo,
+      logo: Logo,
       navbar: StudioNavbar,
     },
   },
