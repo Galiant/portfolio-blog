@@ -2,7 +2,7 @@ function Banner() {
   return (
     <div className='flex flex-col lg:flex-row lg:space-x-5 justify-between font-bold px-10 p-5 mb-10'>
       <div>
-        <h1 className='text-7xl'>Antonijo's Blog</h1>
+        <h1 className='text-7xl'>{`Antonijo's Blog`}</h1>
         <h2 className='mt-5 md:mt-2'>
           Welcome to Every Developers favorite blog in the devosphere.
         </h2>

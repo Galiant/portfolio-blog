@@ -1,4 +1,4 @@
-import { SanityDocument } from 'sanity';
+import { SanityDocument } from '@sanity/client';
 import { Iframe } from 'sanity-plugin-iframe-pane';
 import { DefaultDocumentNodeResolver } from 'sanity/desk';
 
