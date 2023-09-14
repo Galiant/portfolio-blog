@@ -5,7 +5,7 @@ import { DefaultDocumentNodeResolver } from 'sanity/desk';
 // Customise this function to show the correct URL based on the current document
 function getPreviewUrl(doc: SanityDocument) {
   return doc?.slug?.current
-    ? `${window.location.protocol}//${window.location.host}/preview/${doc.slug.current}`
+    ? `${window.location.protocol}//${window.location.host}/post/${doc.slug.current}`
     : `${window.location.host}`;
 }
 
